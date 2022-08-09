@@ -47,13 +47,13 @@ const EditProduct = (props: Props) => {
 
     return (
         <div>
-            <div id="main-content" className="h-full w-full relative overflow-y-auto lg:ml-64">
+            <div id="main-content" className="h-full w-full relative overflow-y-auto">
                 <main>
-                    <div className="pt-6 px-4">
+                    <div className="">
                         <div className="grid grid-cols-1 2xl:grid-cols-2 xl:gap-4 my-4">
                             <div className="bg-white shadow rounded-lg mb-4 p-4 sm:p-6 h-full">
                                 <div className="text-4xl font-bold">
-                                    <h2>Add Product</h2>
+                                    <h2>Edit Product</h2>
                                 </div>
                                 <div className="mt-4">
 
